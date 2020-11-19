@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="15dp"
-        android:layout_weight=".06"
+        android:layout_weight=".1"
         android:orientation="vertical">
 
         <TextView
@@ -31,7 +31,7 @@
     <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="0dp"
-    android:layout_weight=".04"
+    android:layout_weight=".1"
     android:orientation="vertical">
 
     <TextView
@@ -48,7 +48,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="10dp"
-        android:layout_weight=".7"
+        android:layout_weight=".6"
         android:orientation="vertical"
         android:weightSum=".9">
 
@@ -60,7 +60,7 @@
             android:layout_marginStart="20dp"
             android:nextFocusUp="@id/editTextAddTask"
             android:nextFocusLeft="@id/editTextAddTask"
-            android:layout_weight=".1"
+            android:layout_weight=".2"
             android:hint="Add task..."
             android:textColor="@color/colorText" />
 
